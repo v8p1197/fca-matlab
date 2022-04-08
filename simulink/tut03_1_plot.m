@@ -22,4 +22,3 @@ legend('y', 'Location','best', 'FontSize', FS);
 
 set(findall(gcf,'-property','FontSize'),'FontSize',FS)
 set(findall(gcf,'Type','Line'),'LineWidth',LW)
-set(findobj(lgd, 'Type','Line'),'LineWidth',LW)
