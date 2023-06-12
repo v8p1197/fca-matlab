@@ -1,6 +1,5 @@
 % Plot style parameters
 FS = 15;  % FontSize
-LW = 2;  % LineWidth
 
 % Create a figure
 figure(Name="Output")
@@ -28,8 +27,8 @@ for ii = 1 : length(w)
     
     % Plot
     color = colorOrder(ii + 1,:);
-    plot(yd, '--', Color=color, DisplayName='$y_d(t)$'); hold on;
-    plot(y, color=color, DisplayName='$y(t)$');
+    plot(yd, '--', Color=color, DisplayName='$y_d(t)$', LineWidth=1.5); hold on;
+    plot(y, color=color, DisplayName='$y(t)$', LineWidth=2);
 
     % Set title, legend, labels, etc.
     title([], Color="none");
@@ -42,5 +41,4 @@ for ii = 1 : length(w)
 end
 
 % Set plot style
-set(findall(gcf, '-property','FontSize'), FontSize=FS)
-set(findall(gcf, Type='Line'), LineWidth=LW)
+set(findall(gcf, '-property','FontSize'), FontSize=FS);
