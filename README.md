@@ -20,7 +20,7 @@ Simulink models are stored in the folder [`simulink`](./simulink/), together wit
 
 ## Requirements
 
-The exercises are tested under Matlab R2022a in Ubuntu 18.04 and Windows 10.
+The exercises are tested under Matlab R2022a and R2023a in Ubuntu 18.04 and 20.04 and Windows 10.
 
 The following toolboxes are required:
 

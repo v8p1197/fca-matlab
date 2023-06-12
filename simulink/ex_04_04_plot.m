@@ -7,7 +7,7 @@ figure;
 
 plot(out.y)
 grid on
-legend('y', 'Location','best', 'FontSize', FS);
+legend('y', Location='best', FontSize=FS);
 
-set(findall(gcf,'-property','FontSize'),'FontSize',FS)
-set(findall(gcf,'Type','Line'),'LineWidth',LW)
+set(findall(gcf, '-property','FontSize'), FontSize=FS)
+set(findall(gcf, Type='Line'), LineWidth=LW)
