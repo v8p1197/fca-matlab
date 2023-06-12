@@ -54,3 +54,4 @@ Thumbs.db
 
 # MATLAB Drive Connector files
 *.MATLABDriveTag
+*.slxc
