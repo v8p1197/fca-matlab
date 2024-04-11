@@ -1,6 +1,6 @@
 # MATLAB FCA Exercises
 
-This repository is developed by the [Automatic Control Group (ACG)](http://www.automatica.unisa.it/), Department of Computer Engineering, Electrical Engineering and Applied Mathematics (DIEM), University of Salerno.
+This repository is developed by the [Automatic Control Group (ACG)](http://www.automatica.unisa.it/), Department of Information Engineering, Electrical Engineering and Applied Mathematics (DIEM), University of Salerno, as part of the coursework for the bachelor course on Automatic Control.
 
 ## Contents
 
