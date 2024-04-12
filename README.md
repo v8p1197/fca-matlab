@@ -33,3 +33,7 @@ The following toolboxes are required:
 * [Symbolic Math Toolbox](https://it.mathworks.com/help/symbolic/)
 * [Control System Toolbox](https://it.mathworks.com/products/control.html)
 * [Simulink](https://it.mathworks.com/products/simulink.html)
+
+## Contributors
+
+* [Vincenzo Petrone](https://www.linkedin.com/in/vincenzo-petrone-b02b19213/)
