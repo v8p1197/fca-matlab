@@ -1,6 +1,6 @@
 % Plot style parameters
 FS = 20;  % FontSize
-LW = 2;  % LineWidth
+LW = 3;  % LineWidth
 
 % Collect simulation output
 y = out.y;

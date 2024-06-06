@@ -16,7 +16,7 @@ P = tf(zpk([], [0 -1], 2));
 H = 1 / 2;
 kd = 1 / H;
 
-%% Specifiche di regime: errore nullo rispetto an un riferimento a gradino
+%% Specifiche di regime: errore nullo rispetto a un riferimento a gradino
 
 % Controller
 C0 = tf(zpk([], [], 1));

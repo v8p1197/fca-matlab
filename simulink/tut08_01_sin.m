@@ -9,11 +9,17 @@ colorOrder = get(gca, 'ColorOrder');
 % Simulate the system for each frequency
 for ii = 1 : length(w)
     % Plot the responses on separate graphs
-    subplot(3, 1, ii);
+    subplot(length(w), 1, ii);
 
     % Select the frequency and the related period
     ww = w(ii);
     T = 2 * pi / ww;
+
+    % Set the disturbance to be 0
+    set_param('tut08_01/disturbance', Sw='0');
+
+    % Set the reference to be a sine wave
+    set_param('tut08_01/reference selector', Value='2');
     
     % Set the desired frequency
     set_param('tut08_01/Sine', Frequency=num2str(ww));

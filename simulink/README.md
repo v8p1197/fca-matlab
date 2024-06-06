@@ -14,3 +14,7 @@ As regards [`tut08_01`](./tut08_01.slx), there are different alternatives to sim
 2. Then, you can simulate the system in Simulink: open the model, select the controller among the ones you have defined (you can see them in the list of workspace variables), and run the simulation;
 3. With step- and ramp-like references, you can proceed running [`tut08_01_plot.m`](./tut08_01_plot.m).
 4. With sinusoidal references, you might proceed as in step 2-3, but you may want to execute [`tut08_01_sin.m`](./tut08_01_sin.m) instead, which simulates the system programmatically, choosing as reference a sinusoid with various frequencies, and plots the outputs in separate graphs (just remember to select the correct input line of the switch in the Simulink model);
+
+The Simulink systems have been designed in MATLAB 2024a.
+You can find backup models for MATLAB 2022a in the [`backup_schemes`](./backup_schemes/) folder.
+For each system `<X>.slx`, you can find `<X>.slx.r2022a`.
