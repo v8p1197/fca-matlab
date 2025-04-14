@@ -41,7 +41,7 @@ The following toolboxes are required:
 
 ## Contributing
 
-Contributing from students are warmly received: if interested, you can open [issues](https://github.com/v8p1197/fca-matlab/issues) if you detect bugs, or [pull requests](https://github.com/v8p1197/fca-matlab/pulls) if you would like to propose improvements.
+Contributions from students are warmly received: if interested, you can open [issues](https://github.com/v8p1197/fca-matlab/issues) if you detect bugs, or [pull requests](https://github.com/v8p1197/fca-matlab/pulls) if you would like to propose improvements.
 
 ## Authors
 
