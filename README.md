@@ -1,6 +1,6 @@
 # MATLAB exercises on Automatic Control
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=v8p1197/fca-matlab)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=unisa-acg/fca-matlab)
 
 This repository is developed by the [Automatic Control Group (ACG)](http://www.automatica.unisa.it/), Department of Information Engineering, Electrical Engineering and Applied Mathematics (DIEM), University of Salerno, in the context of the coursework for the course on Automatic Control, as part of the bachelor degree in Computer Engineering.
 
@@ -41,8 +41,8 @@ The following toolboxes are required:
 
 ## Contributing
 
-Contributions from students are warmly received: if interested, you can open [issues](https://github.com/v8p1197/fca-matlab/issues) if you detect bugs, or [pull requests](https://github.com/v8p1197/fca-matlab/pulls) if you would like to propose improvements.
-In the latter case, please create a [fork](https://github.com/v8p1197/fca-matlab/forks) in your own workspace to develop your proposal.
+Contributions from students are warmly received: if interested, you can open [issues](https://github.com/unisa-acg/fca-matlab/issues) if you detect bugs, or [pull requests](https://github.com/unisa-acg/fca-matlab/pulls) if you would like to propose improvements.
+In the latter case, please create a [fork](https://github.com/unisa-acg/fca-matlab/forks) in your own workspace to develop your proposal.
 If you're new to GitHub, here are some useful guides:
 
 * [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
