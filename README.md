@@ -1,4 +1,4 @@
-# MATLAB FCA Exercises
+# MATLAB exercises on Automatic Control
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=v8p1197/fca-matlab)
 
