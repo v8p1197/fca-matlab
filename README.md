@@ -38,3 +38,11 @@ The following toolboxes are required:
 * [Symbolic Math Toolbox](https://it.mathworks.com/help/symbolic/)
 * [Control System Toolbox](https://it.mathworks.com/products/control.html)
 * [Simulink](https://it.mathworks.com/products/simulink.html)
+
+## Contributing
+
+Contributing from students are warmly received: if interested, you can open [issues](https://github.com/v8p1197/fca-matlab/issues) if you detect bugs, or [pull requests](https://github.com/v8p1197/fca-matlab/pulls) if you would like to propose improvements.
+
+## Authors
+
+* [Vincenzo Petrone](https://www.linkedin.com/in/vincenzo-petrone-b02b19213/), [ACG](http://www.automatica.unisa.it/all_people.php), [@v8p1197](https://github.com/v8p1197)
