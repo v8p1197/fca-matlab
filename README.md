@@ -42,6 +42,11 @@ The following toolboxes are required:
 ## Contributing
 
 Contributions from students are warmly received: if interested, you can open [issues](https://github.com/v8p1197/fca-matlab/issues) if you detect bugs, or [pull requests](https://github.com/v8p1197/fca-matlab/pulls) if you would like to propose improvements.
+In the latter case, please create a [fork](https://github.com/v8p1197/fca-matlab/forks) in your own workspace to develop your proposal.
+If you're new to GitHub, here are some useful guides:
+
+* [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+* [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 ## Authors
 
