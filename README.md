@@ -2,7 +2,7 @@
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=v8p1197/fca-matlab)
 
-This repository is developed by the [Automatic Control Group (ACG)](http://www.automatica.unisa.it/), Department of Information Engineering, Electrical Engineering and Applied Mathematics (DIEM), University of Salerno, as part of the coursework for the bachelor course on Automatic Control.
+This repository is developed by the [Automatic Control Group (ACG)](http://www.automatica.unisa.it/), Department of Information Engineering, Electrical Engineering and Applied Mathematics (DIEM), University of Salerno, in the context of the coursework for the course on Automatic Control, as part of the bachelor degree in Computer Engineering.
 
 ## Contents
 
