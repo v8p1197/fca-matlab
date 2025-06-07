@@ -8,16 +8,16 @@ yd = kd * out.r;
 d = out.d;
 
 % Create figure to plot data
-figure(Name="Output")
+figure(Name="Output", WindowState="maximized")
 
 % If the disturbance exists, plot it
-if ~all(out.d.Data == 0)
-    plot(d, '--', DisplayName='$d(t)$'); hold on;
+if any(out.d.Data ~= 0)
+    plot(d, '--', DisplayName="$d(t)$"); hold on;
 end
 
 % Plot reference and actual output on the same graph
-plot(yd, '--', DisplayName='$y_d(t)$'); hold on;
-plot(y, DisplayName='$y(t)$');
+plot(yd, '--', DisplayName="$y_d(t)$"); hold on;
+plot(y, DisplayName="$y(t)$");
 
 % Choose the style of the plot
 grid on;
@@ -27,8 +27,8 @@ xlabel("$t~[s]$", Interpreter="latex");
 ylabel("$y$", Interpreter="latex");
 
 % Set font size and linewidth
-set(findall(gcf,'-property','FontSize'), FontSize=FS);
-set(findall(gcf,'Type','Line'), LineWidth=LW);
+set(findall(gcf, "-property", "FontSize"), FontSize=FS);
+set(findall(gcf, Type="Line"), LineWidth=LW);
 
 % If you want, you can analyze the closed-loop transfer function
 % W = feedback(G, H)

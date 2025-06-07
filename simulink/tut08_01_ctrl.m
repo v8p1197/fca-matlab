@@ -31,10 +31,12 @@ margin(F0);
 grid on;
 
 % Set legends
-axs = findall(gcf, Type='Axes');
+axs = findall(gcf, Type="Axes");
 txt = "$F_0(j\omega)$";
-for ax = [axs(2), axs(3)]
-    lgd = legend(ax);
+for ii = 1 : length(axs)
+    lines = findall(axs(ii), Type="Line");
+    legend(axs(ii), lines(1), txt, Interpreter="latex");
+    lgd = legend(axs(ii));
     lgd.String = txt; lgd.String = txt;
     lgd.Interpreter = "latex";
 end
@@ -54,10 +56,12 @@ margin(F1);
 grid on;
 
 % Set legends
-axs = findall(gcf, Type='Axes');
+axs = findall(gcf, Type="Axes");
 txt = "$F_1(j\omega)$";
-for ax = [axs(2), axs(3)]
-    lgd = legend(ax);
+for ii = 1 : length(axs)
+    lines = findall(axs(ii), Type="Line");
+    legend(axs(ii), lines(1), txt, Interpreter="latex");
+    lgd = legend(axs(ii));
     lgd.String = txt; lgd.String = txt;
     lgd.Interpreter = "latex";
 end
@@ -78,10 +82,12 @@ margin(F2);
 grid on;
 
 % Set legends
-axs = findall(gcf, Type='Axes');
+axs = findall(gcf, Type="Axes");
 txt = "$F_2(j\omega)$";
-for ax = [axs(2), axs(3)]
-    lgd = legend(ax);
+for ii = 1 : length(axs)
+    lines = findall(axs(ii), Type="Line");
+    legend(axs(ii), lines(1), txt, Interpreter="latex");
+    lgd = legend(axs(ii));
     lgd.String = txt; lgd.String = txt;
     lgd.Interpreter = "latex";
 end
@@ -103,10 +109,12 @@ margin(F3);
 grid on;
 
 % Set legends
-axs = findall(gcf, Type='Axes');
+axs = findall(gcf, Type="Axes");
 txt = "$F_3(j\omega)$";
-for ax = [axs(2), axs(3)]
-    lgd = legend(ax);
+for ii = 1 : length(axs)
+    lines = findall(axs(ii), Type="Line");
+    legend(axs(ii), lines(1), txt, Interpreter="latex");
+    lgd = legend(axs(ii));
     lgd.String = txt; lgd.String = txt;
     lgd.Interpreter = "latex";
 end
@@ -119,23 +127,22 @@ handle = gcf();
 
 % Plot vertical lines at desired frequencies
 w = [0.03, 0.1, 1];
-axs = findall(handle, Type='Axes');
-for ax = [axs(2), axs(3)]
-    colorOrder = get(ax, 'ColorOrder');
-    lgd = legend(ax);
-    lgd.String{1} = "$W_3^{'}$"; lgd.String{1} = "$W_3^{'}$";
-    for ii = 1 : length(w)
-        ww = w(ii);
-        color = colorOrder(ii + 1, :);
-        xline(ax, ww, '--', DisplayName=['$\omega = ' num2str(ww) '$'], Color=color, LineWidth=1.5);
+axs = findall(handle, Type="Axes");
+for ii = 1 : length(axs)
+    lines = findall(axs(ii), Type="Line");
+    legend(axs(ii), lines(1), "$W_3^{'}$", Interpreter="latex");
+    colorOrder = get(axs(ii), "ColorOrder");
+    for jj = 1 : length(w)
+        ww = w(jj);
+        color = colorOrder(jj + 1, :);
+        xline(axs(ii), ww, '--', DisplayName=['$\omega = ' num2str(ww) '$'], Color=color, LineWidth=1.5);
     end
-    lgd.Interpreter = "latex";
 end
 
 %% Plot style
 
 % This command will set the font size to all the figures
-set(findall(findall(groot, Type="Figure"), '-property','FontSize'), FontSize=FS);
+set(findall(findall(groot, Type="Figure"), "-property","FontSize"), FontSize=FS);
 
 % This command will set the line width to all the lines of all the figures
-set(findall(findall(groot, Type="Figure"), Type='Line'), LineWidth=LW);
+set(findall(findall(groot, Type="Figure"), Type="Line"), LineWidth=LW);
